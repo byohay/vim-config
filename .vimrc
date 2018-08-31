@@ -1,0 +1,3 @@
+
+set hls
+set ic
