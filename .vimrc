@@ -3,15 +3,14 @@ syntax on
 filetype plugin indent on
 
 colorscheme wombat
-set guifont=Monospace\ 14
-set ic
-set hls
+set ignorecase
+set hlsearch
 set laststatus=2
 
 set path=.,,**
 set number
-set tw=0
 
+au BufNewFile,BufRead,BufReadPost *.tex,COMMIT_EDITMESSAGE set textwidth=72
 
 " Use CTRL-S for saving, also in Insert mode
 noremap <C-S> :update<CR>
