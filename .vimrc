@@ -10,6 +10,8 @@ set wildmenu
 
 set path=.,,**
 set number
+set ruler
+set wrap
 
 au BufNewFile,BufRead,BufReadPost *.tex,COMMIT_EDITMESSAGE set textwidth=72
 autocmd BufWritePre *.tex %s/\s\+$//e
