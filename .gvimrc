@@ -1,3 +1,3 @@
 
-set guifont=Roboto\ Mono\ for\ Powerline\ 15
+set guifont=RobotoMonoForPowerline-Regular:h22
 
